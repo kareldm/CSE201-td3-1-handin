@@ -23,7 +23,7 @@ double* extend_array(double* array, int length, int new_size) {
 
     return newArray;
 }
-s
+
 double* shrink_array(double* array, int length, int new_size) {
     double* newArray = new double[new_size];
        for (int i=0; i<new_size;i++) {
