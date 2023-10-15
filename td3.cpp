@@ -19,11 +19,11 @@ double* extend_array(double* array, int length, int new_size) {
         newArray[i] = 0;
     }
 
-    delete array;
+    delete[] array;
 
     return newArray;
 }
-
+s
 double* shrink_array(double* array, int length, int new_size) {
     double* newArray = new double[new_size];
        for (int i=0; i<new_size;i++) {
